@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/usermail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#FCEDAF13"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usermail"
+        android:hint="Password"
+        android:textColorHint="#F8C605"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
+    <CheckBox
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_alignParentRight="true"
+        android:text="show password"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_below="@id/show"
+        android:layout_centerHorizontal="true"
+        android:textColor="#18D3D3"
+        android:textSize="40dp"
+        android:background="#00000000"/>
+    <TextView
+        android:id="@+id/or"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---or---"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#1707F4"/>
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/or"
+        android:text="Create New Account"
+        android:background="#2F000000"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#18D3D3"/>
+
+
+</RelativeLayout>

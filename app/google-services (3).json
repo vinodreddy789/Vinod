@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "630915718482",
+    "firebase_url": "https://vaagdevi-4c14e.firebaseio.com",
+    "project_id": "vaagdevi-4c14e",
+    "storage_bucket": "vaagdevi-4c14e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630915718482:android:6c1f84fa0c5127f4ae2e8b",
+        "android_client_info": {
+          "package_name": "com.vaagdevi.vaagdevi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630915718482-joqeo1anbeoopje7l15tusplj56o9vn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrOo6-IDIwQlaUdb4W7HkYJcuMroqAOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630915718482-joqeo1anbeoopje7l15tusplj56o9vn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
